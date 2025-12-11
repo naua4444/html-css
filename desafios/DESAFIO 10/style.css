@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "iDroid";
+    src: url("fonte/idroid.otf") format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: rgb(235, 219, 199);
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(17, 145, 17), rgb(4, 54, 4));
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+#principal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+#para {
+    text-align: center;
+    margin: 26px 0px 26px 0px;
+}
+main {
+    width: 85%;
+    height: auto;
+    min-height: auto;
+    max-width: 1100px;
+    margin: 0px auto 20px auto;
+    background-color: white;
+    padding: 5px;
+    border: 2px solid rgb(87, 85, 85);
+    border-radius: 6px;
+}
+h1 {
+    color: rgb(2, 95, 2);
+    padding: 10px;
+    margin: 0px;
+    font-family: "iDroid";
+    font-size: 150%
+}
+nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+nav > a{
+    color: rgb(87, 189, 87);
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+nav > a:hover{
+    background-color: rgb(83, 129, 77);
+    border-radius: 2px;
+}   
+p{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 0px 20px;
+}
+h2{
+    font-family: "iDroid";
+    color: rgb(2, 95, 2);
+    background-image:linear-gradient(to right, rgb(185, 221, 185), rgb(167, 236, 167));
+    padding: 3px;
+    margin: 10px;
+    font-size: 120%;
+}
+img {
+    display: block;
+    margin: auto    ;
+}
+article {
+    background-color: green;
+    height: 700px;
+}
+.videocenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxtitulo > h1{
+    margin: 30px 30px 0px 30px;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: rgb(42, 131, 15);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteudo {
+    background-color: rgb(185, 221, 185);
+    margin: 0px 30px 30px 30px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.listaandro {
+    columns: 2;
+    list-style: none;
+    padding-left: 0;
+    color: green;
+    text-decoration: underline;
+}
+.listaandro > li::before {
+    content: "✔";
+    color: black;
+}
+aside > p{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+.final {
+    background-color: rgb(5, 88, 5);
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+    margin: 0px;
+    color: rgb(206, 201, 201);
+}
